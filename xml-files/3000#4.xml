@@ -1,0 +1,11 @@
+<sentences>
+  <sentence ID="3000#4">
+    <text>O'zimiz bilan mazali fresh olib oldik.</text>
+    <aspectTerms>
+      <aspectTerm term="fresh" polarity="positive" from="22" to="27"/>
+    </aspectTerms>
+    <aspectCategories>
+      <aspectCategory polarity="positive" category="ovqat"/>
+    </aspectCategories>
+  </sentence>
+</sentences>

@@ -1,0 +1,12 @@
+<sentences>
+  <sentence ID="3000#3">
+    <text>Kapuchino ichib ikki soat o'tkazdik, sukunatda dam oldik.</text>
+    <aspectTerms>
+      <aspectTerm term="Kapuchino" polarity="positive" from="0" to="9"/>
+    </aspectTerms>
+    <aspectCategories>
+      <aspectCategory polarity="positive" category="ovqat"/>
+      <aspectCategory polarity="positive" category="muhit"/>
+    </aspectCategories>
+  </sentence>
+</sentences>

@@ -1,0 +1,8 @@
+T1	AspectTerm 0 9	Kapuchino
+A1	AspectPolarity T1 positive
+T2	AspectCategory 22 26	soat
+A2	CategoryPolarity T2 positive
+A3	CategoryType T2 ovqat
+T3	AspectCategory 38 47	sukunatda
+A4	CategoryPolarity T3 positive
+A5	CategoryType T3 muhit

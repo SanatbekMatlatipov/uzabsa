@@ -1,0 +1,12 @@
+T1	AspectTerm 11 14	joy
+A1	AspectPolarity T1 positive
+T2	AspectTerm 26 34	xodimlar
+A2	AspectPolarity T2 positive
+T3	AspectTerm 67 73	dizayn
+A3	AspectPolarity T3 positive
+T4	AspectCategory 5 10	qulay
+A4	CategoryPolarity T4 positive
+A5	CategoryType T4 muhit
+T5	AspectCategory 18 25	samimiy
+A6	CategoryPolarity T5 positive
+A7	CategoryType T5 xizmat

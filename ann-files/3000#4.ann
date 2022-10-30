@@ -1,0 +1,5 @@
+T1	AspectTerm 22 27	fresh
+A1	AspectPolarity T1 positive
+T2	AspectCategory 15 21	mazali
+A2	CategoryPolarity T2 positive
+A3	CategoryType T2 ovqat

@@ -1,0 +1,14 @@
+<sentences>
+  <sentence ID="3000#1">
+    <text>Juda qulay joy va samimiy xodimlar, 50-yillar uslubidagi qiziqarli dizayn.</text>
+    <aspectTerms>
+      <aspectTerm term="joy" polarity="positive" from="11" to="14"/>
+      <aspectTerm term="dizayn" polarity="positive" from="67" to="73"/>
+      <aspectTerm term="xodimlar" polarity="positive" from="26" to="34"/>
+    </aspectTerms>
+    <aspectCategories>
+      <aspectCategory polarity="positive" category="muhit"/>
+      <aspectCategory polarity="positive" category="xizmat"/>
+    </aspectCategories>
+  </sentence>
+</sentences>
