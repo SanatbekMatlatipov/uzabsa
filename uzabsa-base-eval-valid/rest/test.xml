@@ -1,0 +1,2325 @@
+<sentences>
+	<sentence id="342#1">
+		<text>Super menga yoqadi</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="223#5">
+		<text>Suratdagi shshleek 300000 so'm.</text>
+		<aspectTerms>
+			<aspectTerm term="shshleek" polarity="neutral" from="10" to="18"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="307#1">
+		<text>Ajoyib joy🔥 albatta sarflagan vaqtingizdan zavq olasiz!</text>
+		<aspectTerms>
+			<aspectTerm term="joy🔥" polarity="positive" from="7" to="12"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="492#1">
+		<text>Mazali, lekin joy juda shovqinli, stullar qulay emas, yorug'lik doimo xira.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="14" to="17"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+			<aspectCategory category="muhit" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="570#3">
+		<text>Ikkinchi qavatda faqat 3-4 ofitsiant.</text>
+		<aspectTerms>
+			<aspectTerm term="ofitsiant" polarity="neutral" from="27" to="36"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="399#2">
+		<text>Sho'rlikni yo'qotish uchun siz ko'p suyuqlik ichishingiz kerak</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="242#4">
+		<text>Osh 5 evrodan kamroq turadi va siz porsiyaning kattaligidan ko'proq qoniqasiz!</text>
+		<aspectTerms>
+			<aspectTerm term="porsiyaning kattaligidan" polarity="positive" from="35" to="59"/>
+			<aspectTerm term="porsiyaning kattaligidan" polarity="positive" from="35" to="59"/>
+			<aspectTerm term="5 evrodan kamroq turad" polarity="neutral" from="4" to="26"/>
+			<aspectTerm term="5 evrodan kamroq turad" polarity="neutral" from="4" to="26"/>
+			<aspectTerm term="5 evrodan kamroq turad" polarity="neutral" from="4" to="26"/>
+			<aspectTerm term="5 evrodan kamroq turad" polarity="neutral" from="4" to="26"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+			<aspectCategory category="narx" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="305#3">
+		<text>Men 5 yulduzlarini qo'ydim, lekin shartli ravishda... Agar restaran tanqidni yetarlicha qabul qilsa, ular xizmat sifatini yaxshilashlari kerak, chunki biz bu restoran ekanligini ko'rdik.</text>
+		<aspectTerms>
+			<aspectTerm term="yulduzlarini" polarity="neutral" from="6" to="18"/>
+			<aspectTerm term="xizmat" polarity="negative" from="106" to="112"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="340#3">
+		<text>Yuqori narx yorlig'i sabab bo'lishi kerak.</text>
+		<aspectTerms>
+			<aspectTerm term="narx" polarity="negative" from="7" to="11"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="49#1">
+		<text>Gigienik emas, masalan, oshpaz yalang qo‘li bilan mijozning likopchasiga dolma yig‘adi</text>
+		<aspectTerms>
+			<aspectTerm term="dolma" polarity="neutral" from="73" to="78"/>
+			<aspectTerm term="Gigienik" polarity="negative" from="0" to="8"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="92#2">
+		<text>Ular hamma joyda o'zlarining tripadvisor nuqtasiga ega bo'lib, ular bu eng yaxshi restoran ekani bilan faxrlanishadi.</text>
+		<aspectTerms>
+			<aspectTerm term="restoran" polarity="positive" from="82" to="90"/>
+			<aspectTerm term="ripadvisor nuqtasiga" polarity="neutral" from="30" to="50"/>
+			<aspectTerm term="ripadvisor nuqtasiga" polarity="neutral" from="30" to="50"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="490#3">
+		<text>Qulay qulay.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="279#2">
+		<text>Chiroyli mazali taom.</text>
+		<aspectTerms>
+			<aspectTerm term="taom" polarity="positive" from="16" to="20"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="537#1">
+		<text>rahmat</text>
+		<aspectTerms>
+			<aspectTerm term="rahmat" polarity="neutral" from="0" to="6"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="572#1">
+		<text>Mazali oshxona.</text>
+		<aspectTerms>
+			<aspectTerm term="oshxona" polarity="positive" from="7" to="14"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="435#4">
+		<text>Menga qo'y go'shtinig yumshoq va tabiiy ta'mi yoqdi.</text>
+		<aspectTerms>
+			<aspectTerm term="qo'y go'shtinig" polarity="positive" from="6" to="21"/>
+			<aspectTerm term="qo'y go'shtinig" polarity="positive" from="6" to="21"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="572#3">
+		<text>Restoraningizga oilangiz bilan kelganingiz juda yoqimli, yetkazib berish ham bor, hammasi sifatli va qadoqlangan.</text>
+		<aspectTerms>
+			<aspectTerm term="hammasi" polarity="positive" from="82" to="89"/>
+			<aspectTerm term="Restoraningizga" polarity="positive" from="0" to="15"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="490#1">
+		<text>Ajoyib joy.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="7" to="10"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="428#1">
+		<text>Juda rangli yorqin rangli joy</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="26" to="29"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="323#2">
+		<text>Bu yerga tashrif buyurib, vaqtingizni va pulingizni behuda sarflamang.</text>
+		<aspectTerms>
+			<aspectTerm term="vaqtingizni" polarity="negative" from="26" to="37"/>
+			<aspectTerm term="pulingizni" polarity="negative" from="41" to="51"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="375#8">
+		<text>Bir oz qimmat, lekin bu joy bunga arziydi, ba'zida tashrif buyurish mumkin ...</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="conflict" from="24" to="27"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="340#1">
+		<text>Bir soat bifshteks kutgandan so'ng, ular uni sovuq holda olib kelishdi.</text>
+		<aspectTerms>
+			<aspectTerm term="bifshteks" polarity="negative" from="9" to="18"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="negative"/>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="305#1">
+		<text>Hamma narsa mazali edi, portsiyalar katta edi.</text>
+		<aspectTerms>
+			<aspectTerm term="Hamma narsa" polarity="positive" from="0" to="11"/>
+			<aspectTerm term="Hamma narsa" polarity="positive" from="0" to="11"/>
+			<aspectTerm term="portsiyalar" polarity="positive" from="24" to="35"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="535#1">
+		<text>Ajoyib hammasi super</text>
+		<aspectTerms>
+			<aspectTerm term="hammasi" polarity="positive" from="7" to="14"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="13#4">
+		<text>Narxlar nisbatan arzon!</text>
+		<aspectTerms>
+			<aspectTerm term="Narxlar" polarity="neutral" from="0" to="7"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="570#1">
+		<text>Dahshatli xizmat.</text>
+		<aspectTerms>
+			<aspectTerm term="xizmat" polarity="negative" from="10" to="16"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="218#1">
+		<text>Hamkasblar bilan qolish uchun yaxshi joy!</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="37" to="40"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="90#2">
+		<text>Tavsiya etiladi)</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="28#2">
+		<text>Hech qanday forma yo'q, siz ofitsiant kim mehmon ekanligini tushunmaysiz.</text>
+		<aspectTerms>
+			<aspectTerm term="forma" polarity="negative" from="12" to="17"/>
+			<aspectTerm term="ofitsiant" polarity="negative" from="28" to="37"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="119#1">
+		<text>Ajoyib cheesecake!</text>
+		<aspectTerms>
+			<aspectTerm term="cheesecake" polarity="positive" from="7" to="17"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="307#3">
+		<text>100% u yerda dam olishni maslahat berishadi 🥳</text>
+		<aspectTerms>
+			<aspectTerm term="dam olishni" polarity="positive" from="13" to="24"/>
+			<aspectTerm term="dam olishni" polarity="positive" from="13" to="24"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="50#2">
+		<text>Ajoyib osh, barbekyu ham.</text>
+		<aspectTerms>
+			<aspectTerm term="osh, barbekyu" polarity="positive" from="7" to="20"/>
+			<aspectTerm term="osh, barbekyu" polarity="positive" from="7" to="20"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="15#2">
+		<text>O‘zbekiston milliy restoranlaridagi bu mashhur hidga o‘rganmagan bo‘lsangiz, bu sizni bezovta qilishi mumkin.</text>
+		<aspectTerms>
+			<aspectTerm term="hidga" polarity="negative" from="47" to="52"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="33#1">
+		<text>Ajoyib!! Haqiqiy, hammasi mazali</text>
+		<aspectTerms>
+			<aspectTerm term="hammasi" polarity="positive" from="18" to="25"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="76#1">
+		<text>Eng yaxshi milliy taom</text>
+		<aspectTerms>
+			<aspectTerm term="milliy taom" polarity="positive" from="11" to="22"/>
+			<aspectTerm term="milliy taom" polarity="positive" from="11" to="22"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="96#4">
+		<text>Sharob ro'yxatida spirtli ichimliklarni tanlash juda yaxshi.</text>
+		<aspectTerms>
+			<aspectTerm term="Sharob" polarity="positive" from="1" to="7"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="124#1">
+		<text>Tinch interyer va chiroyli, hatto oshxona.</text>
+		<aspectTerms>
+			<aspectTerm term="interyer" polarity="positive" from="6" to="14"/>
+			<aspectTerm term="oshxona" polarity="positive" from="34" to="41"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="238#4">
+		<text>Mashinalar uchun bo'sh joy bo'lmasa, ular yer osti avtomobil turar joyiga yuboriladi.</text>
+		<aspectTerms>
+			<aspectTerm term="yer osti avtomobil turar joyiga" polarity="neutral" from="42" to="73"/>
+			<aspectTerm term="yer osti avtomobil turar joyiga" polarity="neutral" from="42" to="73"/>
+			<aspectTerm term="yer osti avtomobil turar joyiga" polarity="neutral" from="42" to="73"/>
+			<aspectTerm term="bo'sh joy bo'lmasa" polarity="neutral" from="17" to="35"/>
+			<aspectTerm term="bo'sh joy bo'lmasa" polarity="neutral" from="17" to="35"/>
+			<aspectTerm term="bo'sh joy bo'lmasa" polarity="neutral" from="17" to="35"/>
+			<aspectTerm term="yer osti avtomobil turar joyiga" polarity="neutral" from="42" to="73"/>
+			<aspectTerm term="yer osti avtomobil turar joyiga" polarity="neutral" from="42" to="73"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="161#1">
+		<text>Chiroyli, mazali, lekin shovqinli, tutunli va joy etarli emas</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="conflict" from="46" to="49"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="508#1">
+		<text>Xodimlar juda yaxshi</text>
+		<aspectTerms>
+			<aspectTerm term="Xodimlar" polarity="positive" from="0" to="8"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="225#1">
+		<text>Chiroyli restoran, daryo bo'yidagi go'zal joy.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="42" to="45"/>
+			<aspectTerm term="restoran" polarity="positive" from="9" to="17"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="260#1">
+		<text>Elegant atmosfera, ayniqsa taom.</text>
+		<aspectTerms>
+			<aspectTerm term="taom" polarity="positive" from="27" to="31"/>
+			<aspectTerm term="atmosfera" polarity="positive" from="8" to="17"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="450#1">
+		<text>YAXSHI RESTORAN.</text>
+		<aspectTerms>
+			<aspectTerm term="RESTORAN" polarity="positive" from="7" to="15"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="415#1">
+		<text>Mashaallah - Toshkentdagi birinchi arab restorani!</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="338#1">
+		<text>Joy shunchaki ajoyib.</text>
+		<aspectTerms>
+			<aspectTerm term="Joy" polarity="positive" from="0" to="3"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="380#1">
+		<text>Pizza yeyish uchun yaxshi va qulay joy.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="35" to="38"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="303#7">
+		<text>Oziq-ovqat uzoq vaqt davomida va qisman olib kelishdi.</text>
+		<aspectTerms>
+			<aspectTerm term="Oziq-ovqat" polarity="negative" from="0" to="10"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="325#4">
+		<text>Hammasi mazali edi.</text>
+		<aspectTerms>
+			<aspectTerm term="Hammasi" polarity="positive" from="0" to="7"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="325#5">
+		<text>Qulaylik muhiti va musiqa bor.</text>
+		<aspectTerms>
+			<aspectTerm term="muhiti" polarity="positive" from="9" to="15"/>
+			<aspectTerm term="musiqa" polarity="positive" from="19" to="25"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="201#1">
+		<text>Yaxshi</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="244#1">
+		<text>Mol go'shti kabobi ajoyib edi, 4 yoki 5 dona toza suvli go'sht - katta bo'laklar!</text>
+		<aspectTerms>
+			<aspectTerm term="Mol go'shti kabobi" polarity="positive" from="0" to="18"/>
+			<aspectTerm term="Mol go'shti kabobi" polarity="positive" from="0" to="18"/>
+			<aspectTerm term="Mol go'shti kabobi" polarity="positive" from="0" to="18"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="303#6">
+		<text>Dj odatda ishdan bo'shatilishi kerak, dabdala musiqalar qo'dii.</text>
+		<aspectTerms>
+			<aspectTerm term="musiqalar" polarity="negative" from="46" to="55"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="569#1">
+		<text>Men yetkazib berish uchun qo'ng'iroq qildim, ular bir daqiqa kutib turishimni aytishdi va kimnidir baqirib chaqirishga harakat qilishdi, natija bo'lmagach, ular shunchaki yetkazib berishni rad etishdi.</text>
+		<aspectTerms>
+			<aspectTerm term="yetkazib berish" polarity="negative" from="4" to="19"/>
+			<aspectTerm term="yetkazib berish" polarity="negative" from="4" to="19"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="100#1">
+		<text>Xodimlar ajoyib edi</text>
+		<aspectTerms>
+			<aspectTerm term="Xodimlar" polarity="positive" from="0" to="8"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="145#1">
+		<text>Qanday qilib men u yerda hech qachon bo'lmaganimni bilmayman</text>
+		<aspectTerms>
+			<aspectTerm term="yerda" polarity="neutral" from="19" to="24"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="594#1">
+		<text>Olib ketish uchun samsa oldim.</text>
+		<aspectTerms>
+			<aspectTerm term="samsa" polarity="neutral" from="18" to="23"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="31#2">
+		<text>Bu joy mazali va arzon.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="3" to="6"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="17#1">
+		<text>Mazali!</text>
+		<aspectTerms>
+			<aspectTerm term="Mazali" polarity="positive" from="0" to="6"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="52#1">
+		<text>Shunday qilib, targ'ib qilingan joy, oziq-ovqat unchalik emas, kabobdan aytilgandan yomonroq, hech qanday souslaryo'q, men yaqin atrofdagi do'konga yugurishim kerak edi.</text>
+		<aspectTerms>
+			<aspectTerm term="oziq-ovqat" polarity="negative" from="37" to="47"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="489#1">
+		<text>Juda yaxshi restoran.</text>
+		<aspectTerms>
+			<aspectTerm term="restoran" polarity="positive" from="12" to="20"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="382#2">
+		<text>Men unga tashrif buyurishni tavsiya qilaman</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="9#1">
+		<text>Ovqat juda sekin keltirildi.</text>
+		<aspectTerms>
+			<aspectTerm term="Ovqat" polarity="negative" from="0" to="5"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="238#5">
+		<text>Xodimlar eshik oldida uchrashib, stolgacha sizni kuzatib qo'yishadi.</text>
+		<aspectTerms>
+			<aspectTerm term="Xodimlar" polarity="positive" from="0" to="8"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="96#5">
+		<text>Menga ovqat yoqdi, men buyurgan hamma narsa mazali edi.</text>
+		<aspectTerms>
+			<aspectTerm term="ovqat" polarity="positive" from="6" to="11"/>
+			<aspectTerm term="hamma narsa" polarity="positive" from="32" to="43"/>
+			<aspectTerm term="hamma narsa" polarity="positive" from="32" to="43"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="359#1">
+		<text>Xuddi shu mashhur &quot;Na Neba&quot;</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="474#1">
+		<text>Qanaqa jinni joy, men u yerga bordim, faqat salatga buyurtma berishga pulim yetti.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="negative" from="13" to="16"/>
+			<aspectTerm term="salatga" polarity="negative" from="44" to="51"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="negative"/>
+			<aspectCategory category="muhit" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="431#1">
+		<text>Namoz uchun joy bor.</text>
+		<aspectTerms>
+			<aspectTerm term="Namoz" polarity="neutral" from="0" to="5"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="15#3">
+		<text>Buyurtmangiz biroz vaqt olishi mumkin, chunki u odatda tushlik vaqtida band</text>
+		<aspectTerms>
+			<aspectTerm term="vaqt" polarity="negative" from="19" to="23"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="neutral"/>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="307#2">
+		<text>Yuqori sifatli xizmat va mazali taomlar!</text>
+		<aspectTerms>
+			<aspectTerm term="xizmat" polarity="positive" from="15" to="21"/>
+			<aspectTerm term="taomlar" polarity="positive" from="32" to="39"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="364#1">
+		<text>Ovqat yaxshi edi, ovqatlanish uchun bir soatdan ko'proq kutish kerak edi, lekin umuman olganda yaxshi.</text>
+		<aspectTerms>
+			<aspectTerm term="Ovqat" polarity="positive" from="0" to="5"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="321#1">
+		<text>Juda g'alati tajriba.</text>
+		<aspectTerms>
+			<aspectTerm term="tajriba" polarity="neutral" from="13" to="20"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="449#1">
+		<text>Oziq-ovqat asta-sekin xizmat nolga tayyorlanmoqda</text>
+		<aspectTerms>
+			<aspectTerm term="Oziq-ovqat" polarity="negative" from="0" to="10"/>
+			<aspectTerm term="xizmat" polarity="negative" from="22" to="28"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="negative"/>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="28#3">
+		<text>Zalda barbekyudan tutun bor</text>
+		<aspectTerms>
+			<aspectTerm term="barbekyudan" polarity="neutral" from="6" to="17"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="492#2">
+		<text>Ofitsiantlar shovqinli, lekin tez</text>
+		<aspectTerms>
+			<aspectTerm term="Ofitsiantlar" polarity="conflict" from="0" to="12"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="399#1">
+		<text>Juda sho'r mandi, lekin go'sht mukammal pishirilgan.</text>
+		<aspectTerms>
+			<aspectTerm term="mandi" polarity="conflict" from="11" to="16"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="13#5">
+		<text>Turistlar uchun juda arzon!</text>
+		<aspectTerms>
+			<aspectTerm term="arzon" polarity="positive" from="21" to="26"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="178#1">
+		<text>Mazali!!!</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="264#4">
+		<text>Ingredientlar kam... Tashqaridagi restorannikidan ikki-uch baravar qimmatligini hisobga olsak, ko'proq yulduz berish qiyin edi.</text>
+		<aspectTerms>
+			<aspectTerm term="ikki-uch baravar" polarity="negative" from="50" to="66"/>
+			<aspectTerm term="ikki-uch baravar" polarity="negative" from="50" to="66"/>
+			<aspectTerm term="Ingredientlar" polarity="negative" from="0" to="13"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="negative"/>
+			<aspectCategory category="ovqat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="284#1">
+		<text>Eng yaxshi boho</text>
+		<aspectTerms>
+			<aspectTerm term="boho" polarity="positive" from="11" to="15"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="279#1">
+		<text>Super mega Ajoyib joy .</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="18" to="21"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="92#1">
+		<text>Mutlaqo 1 YULDUZ!</text>
+		<aspectTerms>
+			<aspectTerm term="1 YULDUZ" polarity="negative" from="8" to="16"/>
+			<aspectTerm term="1 YULDUZ" polarity="negative" from="8" to="16"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="120#4">
+		<text>Biroq, kunning vaqtiga qarab mavjud bo'lmagan menyular mavjud.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="572#2">
+		<text>Ofitsiantlar xushmuomala, toza.</text>
+		<aspectTerms>
+			<aspectTerm term="Ofitsiantlar" polarity="positive" from="0" to="12"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="511#1">
+		<text>Bu yangi va mazali taomlari bilan Toshkentdagi super restoran</text>
+		<aspectTerms>
+			<aspectTerm term="taomlari" polarity="positive" from="19" to="27"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="185#1">
+		<text>Ajoyib restoran</text>
+		<aspectTerms>
+			<aspectTerm term="restoran" polarity="positive" from="7" to="15"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="299#4">
+		<text>Pivo bizni tushkunlikka tushirdi, nordon edi.</text>
+		<aspectTerms>
+			<aspectTerm term="Pivo" polarity="negative" from="0" to="4"/>
+			<aspectTerm term="tushkunlikka" polarity="neutral" from="11" to="23"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="554#1">
+		<text>To'y uchun yaxshi joy</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="18" to="21"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="106#3">
+		<text>Bu shunchaki aql bovar qilmaydi! 👌🏻🍷</text>
+		<aspectTerms>
+			<aspectTerm term="👌🏻🍷" polarity="positive" from="33" to="36"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="318#1">
+		<text>Shahardagi ba'zi boshqa restoranlarga juda o'xshash, ya'ni go'shtli taomlarga urg'u berilgan.</text>
+		<aspectTerms>
+			<aspectTerm term="restoranlarga" polarity="neutral" from="24" to="37"/>
+			<aspectTerm term="go'shtli taomlarga" polarity="neutral" from="59" to="77"/>
+			<aspectTerm term="go'shtli taomlarga" polarity="neutral" from="59" to="77"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="neutral"/>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="92#5">
+		<text>Biz sayyoh ekanligimizni aniq ko'radi, garchi ular ingliz menyusiga ega bo'lsa-da, u o'z hayotidan juda zerikkan ruscha ko'rinadi</text>
+		<aspectTerms>
+			<aspectTerm term="menyusiga" polarity="conflict" from="58" to="67"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="279#5">
+		<text>Men xursandman</text>
+		<aspectTerms>
+			<aspectTerm term="xursandman" polarity="positive" from="4" to="14"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="470#1">
+		<text>U yerdagi taom yoqdi.</text>
+		<aspectTerms>
+			<aspectTerm term="taom" polarity="positive" from="10" to="14"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="435#1">
+		<text>2019 yil sentyabr biz shu yerda edik.</text>
+		<aspectTerms>
+			<aspectTerm term="yerda" polarity="neutral" from="26" to="31"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="242#3">
+		<text>Oshpaz sizning ko'z o'ngingizda pishiradi va atmosfera juda yoqimli va maroqli dam olish uchun mos.</text>
+		<aspectTerms>
+			<aspectTerm term="atmosfera" polarity="positive" from="45" to="54"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="305#4">
+		<text>Chekdagi xizmatlar uchun + 20%, lekin bizning ofitsiantimizyaxshi ishlamadi.</text>
+		<aspectTerms>
+			<aspectTerm term="ofitsiantimizyaxshi" polarity="negative" from="46" to="65"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="340#4">
+		<text>Bu yerga ikkinchi marta kelish uchun hech qanday sabab yo'q.</text>
+		<aspectTerms>
+			<aspectTerm term="sabab yo'q." polarity="negative" from="49" to="60"/>
+			<aspectTerm term="sabab yo'q." polarity="negative" from="49" to="60"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="104#1">
+		<text>Yaxshi xodimlar, mazali va qimmat emas</text>
+		<aspectTerms>
+			<aspectTerm term="xodimlar" polarity="positive" from="7" to="15"/>
+			<aspectTerm term="mazali" polarity="positive" from="17" to="23"/>
+			<aspectTerm term="qimmat" polarity="positive" from="27" to="33"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="positive"/>
+			<aspectCategory category="narx" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="141#1">
+		<text>Yovuzlik</text>
+		<aspectTerms>
+			<aspectTerm term="Yovuzlik" polarity="negative" from="0" to="8"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="590#1">
+		<text>Uyim yaqinida arzon va mazali</text>
+		<aspectTerms>
+			<aspectTerm term="Uyim yaqinida" polarity="positive" from="0" to="13"/>
+			<aspectTerm term="Uyim yaqinida" polarity="positive" from="0" to="13"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="122#2">
+		<text>Taom juda o'rtacha, lekin u Toshkentdagi g'arbiy restorandan kutgan narsaga yetarli.</text>
+		<aspectTerms>
+			<aspectTerm term="Taom" polarity="positive" from="0" to="4"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="70#2">
+		<text>Odatdagi va mahalliy taomlar ulkan qozonlarda tayyorlanadi.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="35#2">
+		<text>Xizmat dahshatli, oziq-ovqat bir xil oshxona bilan solishtirganda o'rtacha</text>
+		<aspectTerms>
+			<aspectTerm term="Xizmat" polarity="negative" from="0" to="6"/>
+			<aspectTerm term="oziq-ovqat" polarity="neutral" from="18" to="28"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+			<aspectCategory category="ovqat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="13#1">
+		<text>Birinchi Milliy taomlardan biri - keng assortimentli taomlar!</text>
+		<aspectTerms>
+			<aspectTerm term="taomlardan" polarity="neutral" from="16" to="26"/>
+			<aspectTerm term="taomlar" polarity="neutral" from="53" to="60"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="570#4">
+		<text>Zalning yarmi bo'sh bo'lsa-da, ular xizmat qilishga ulgurishmaydi.</text>
+		<aspectTerms>
+			<aspectTerm term="xizmat" polarity="negative" from="36" to="42"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="321#5">
+		<text>Ikkita taom (meniki) unutilgandek edi.</text>
+		<aspectTerms>
+			<aspectTerm term="taom" polarity="negative" from="7" to="11"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="205#1">
+		<text>Juda yaxshi muhit va ovqat</text>
+		<aspectTerms>
+			<aspectTerm term="muhit" polarity="positive" from="12" to="17"/>
+			<aspectTerm term="ovqat" polarity="positive" from="21" to="26"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="240#1">
+		<text>Eng yaxshi xizmat, eng yaxshi restoran!</text>
+		<aspectTerms>
+			<aspectTerm term="xizmat" polarity="positive" from="11" to="17"/>
+			<aspectTerm term="restoran" polarity="positive" from="30" to="38"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="266#2">
+		<text>Islom Nazarov ismli ofitsiantga professionalligi uchun alohida rahmat aytmoqchiman.</text>
+		<aspectTerms>
+			<aspectTerm term="ofitsiantga" polarity="positive" from="20" to="31"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="223#2">
+		<text>Mazali beshbarmak va shashlik.</text>
+		<aspectTerms>
+			<aspectTerm term="shashlik" polarity="positive" from="21" to="29"/>
+			<aspectTerm term="beshbarmak" polarity="positive" from="7" to="17"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="528#1">
+		<text>Musiqadan quloqqa yoqadi, siz dam olishingiz va yaxshi vaqt o'tkazishingiz mumkin.</text>
+		<aspectTerms>
+			<aspectTerm term="Musiqadan" polarity="positive" from="0" to="11"/>
+			<aspectTerm term="Musiqadan" polarity="positive" from="0" to="11"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="96#1">
+		<text>Keng mahalliy menyuga ega kichik italyan kafesi.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="238#1">
+		<text>To'siqning kirish qismidanoq kutib olishadi.</text>
+		<aspectTerms>
+			<aspectTerm term="To'siqning kirish qismidanoq" polarity="positive" from="0" to="28"/>
+			<aspectTerm term="To'siqning kirish qismidanoq" polarity="positive" from="0" to="28"/>
+			<aspectTerm term="To'siqning kirish qismidanoq" polarity="positive" from="0" to="28"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="515#1">
+		<text>Ajoyib oshxona!</text>
+		<aspectTerms>
+			<aspectTerm term="oshxona" polarity="positive" from="7" to="14"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="181#1">
+		<text>Sharoitlari mukammal.</text>
+		<aspectTerms>
+			<aspectTerm term="mukammal" polarity="positive" from="12" to="20"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="550#1">
+		<text>Yaxshi o'tirdik</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="139#1">
+		<text>Yaxshi joy.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="7" to="10"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="327#3">
+		<text>Juda dramatik</text>
+		<aspectTerms>
+			<aspectTerm term="dramatik" polarity="negative" from="5" to="13"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="280#1">
+		<text>Barcelona fan-klublarining &quot;FAN ZONE&quot; shu yerda!</text>
+		<aspectTerms>
+			<aspectTerm term="FAN ZONE" polarity="neutral" from="28" to="36"/>
+			<aspectTerm term="FAN ZONE" polarity="neutral" from="28" to="36"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="338#4">
+		<text>Yaxshi va eng muhimi tez xizmat ko'rsatishadi.</text>
+		<aspectTerms>
+			<aspectTerm term="xizmat" polarity="positive" from="25" to="31"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="450#4">
+		<text>BA'ZIDA 30 MINUTGA VA KO'PROQ.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="303#2">
+		<text>Dekabr 13 da 2020 kishi uchun korporativ boshqaruv.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="244#5">
+		<text>Menyu Ru/En/Uz tilida 👍 Biz (ikki kishi, go'shtni yaxshi ko'radiganlar) bitta osh, mol go'shti kabobi, qo'zichoq go'shti va uch stakan vinoni jami atigi 50 dollarga ichdik.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="360#1">
+		<text>Joyning o'zi yoqimli, lekin zerikmasligimiz uchun yangi narsa qilish kerak</text>
+		<aspectTerms>
+			<aspectTerm term="Joyning" polarity="conflict" from="0" to="7"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="325#1">
+		<text>Yoqdi.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="408#1">
+		<text>Ovqat ajoyib edi, lekin u asl Briyani kabi emas edi</text>
+		<aspectTerms>
+			<aspectTerm term="Ovqat" polarity="conflict" from="0" to="5"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="69#2">
+		<text>Bu arzon, shuning uchun siz to'lagan narsangizni olasiz.</text>
+		<aspectTerms>
+			<aspectTerm term="to'lagan narsangizni" polarity="positive" from="28" to="48"/>
+			<aspectTerm term="to'lagan narsangizni" polarity="positive" from="28" to="48"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="569#4">
+		<text>Ular hatto kechirim ham so'rashmadi.</text>
+		<aspectTerms>
+			<aspectTerm term="so'rashmadi." polarity="neutral" from="25" to="37"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="589#1">
+		<text>Atmosfera yaxshi emas</text>
+		<aspectTerms>
+			<aspectTerm term="Atmosfera" polarity="negative" from="0" to="9"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="244#4">
+		<text>Rus va ingliz tillarida gaplashadigan samimiy xodimlar.</text>
+		<aspectTerms>
+			<aspectTerm term="xodimlar" polarity="positive" from="46" to="54"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="158#1">
+		<text>Restoran buzilgan.</text>
+		<aspectTerms>
+			<aspectTerm term="Restoran" polarity="negative" from="0" to="8"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="303#3">
+		<text>Hisob $ 450 uchun chiqdi.</text>
+		<aspectTerms>
+			<aspectTerm term="Hisob" polarity="neutral" from="0" to="5"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="531#1">
+		<text>Kulip turgan narsaga gap yoq</text>
+		<aspectTerms>
+			<aspectTerm term="narsaga" polarity="positive" from="13" to="20"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="574#1">
+		<text>Assalomy alekum iltimos ramazon oyida ishchilani ko'paytiringlar, umuman xizmat sifati past, palapartish, muomila yo'q, umuman stolga qarash 0%</text>
+		<aspectTerms>
+			<aspectTerm term="muomila" polarity="negative" from="106" to="113"/>
+			<aspectTerm term="stolga qarash" polarity="negative" from="127" to="140"/>
+			<aspectTerm term="stolga qarash" polarity="negative" from="127" to="140"/>
+			<aspectTerm term="xizmat" polarity="negative" from="73" to="79"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="259#1">
+		<text>Ushbu restoranning taassurotlari juda ajoyib, menga juda yoqdi, ayniqsa xizmat.</text>
+		<aspectTerms>
+			<aspectTerm term="xizmat" polarity="positive" from="72" to="78"/>
+			<aspectTerm term="restoranning" polarity="positive" from="6" to="18"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="100#4">
+		<text>Keyin bizdan buyurtma qilingan choy uchun 20% uchlik undirildi.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="469#1">
+		<text>Ajoyib joy va yaxshi xizmat</text>
+		<aspectTerms>
+			<aspectTerm term="xizmat" polarity="positive" from="21" to="27"/>
+			<aspectTerm term="joy" polarity="positive" from="7" to="10"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="327#2">
+		<text>Aksariyat qizlar dadalari bilan, ba'zilari esa bobolari bilan kelishadi.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="344#1">
+		<text>G'ayrioddiy joy..... Tashrif buyuring.....</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="12" to="15"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="301#1">
+		<text>Yaxshi joy.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="7" to="10"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="9#4">
+		<text>U ovqatdan keyin bizga ichimlik olib keldi.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="494#1">
+		<text>Arab Qizlari</text>
+		<aspectTerms>
+			<aspectTerm term="Qizlari" polarity="neutral" from="5" to="12"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="384#1">
+		<text>Mazali juda mazali</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="266#3">
+		<text>Umuman olganda, Markaziy Osiyodagi eng yaxshi muassasalardan biri.</text>
+		<aspectTerms>
+			<aspectTerm term="muassasalardan biri" polarity="positive" from="46" to="65"/>
+			<aspectTerm term="muassasalardan biri" polarity="positive" from="46" to="65"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="223#3">
+		<text>Beshbarmoqning erkak ulushi bir kishi uchun juda katta.</text>
+		<aspectTerms>
+			<aspectTerm term="Beshbarmoqning" polarity="positive" from="0" to="14"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="321#4">
+		<text>Xizmat qilayotganda ofitsiant idish-tovoqlarni aralashtirib yubordi va til bilmaslik muammosi tufayli odamlar boshqa odamlarning taomlarini yeyishdi.</text>
+		<aspectTerms>
+			<aspectTerm term="ofitsiant" polarity="negative" from="20" to="29"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="570#5">
+		<text>Men tushlik qilish uchun to'xtashni taklif qilmayman.</text>
+		<aspectTerms>
+			<aspectTerm term="tushlik qilish" polarity="negative" from="4" to="18"/>
+			<aspectTerm term="tushlik qilish" polarity="negative" from="4" to="18"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="454#1">
+		<text>Choyxona</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="411#1">
+		<text>Men sizga sharqona auraga sho'ng'ishingizni maslahat beraman, mazali arab oshxonasi, mandi, gumus, falafel ... va arab kaboblari ... bularning barchasi sinab ko'rishga arziydi va eng muhimi hamma narsa haloldir.</text>
+		<aspectTerms>
+			<aspectTerm term="sharqona auraga" polarity="positive" from="10" to="25"/>
+			<aspectTerm term="sharqona auraga" polarity="positive" from="10" to="25"/>
+			<aspectTerm term="arab oshxonasi" polarity="positive" from="69" to="83"/>
+			<aspectTerm term="arab oshxonasi" polarity="positive" from="69" to="83"/>
+			<aspectTerm term="mandi" polarity="positive" from="85" to="90"/>
+			<aspectTerm term="gumus" polarity="positive" from="92" to="97"/>
+			<aspectTerm term="falafel" polarity="positive" from="99" to="106"/>
+			<aspectTerm term="arab kaboblar" polarity="positive" from="114" to="127"/>
+			<aspectTerm term="arab kaboblar" polarity="positive" from="114" to="127"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="70#3">
+		<text>Ovqat juda yaxshi va saxovatli.</text>
+		<aspectTerms>
+			<aspectTerm term="Ovqat" polarity="positive" from="1" to="6"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="35#3">
+		<text>Ovqatlanish so'zi</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="122#3">
+		<text>Sharob tanlovidan biroz hafsalamiz pir bo'ldi va o'z shishamiz uchun qo'shimcha xizmat haqini to'lashga majbur bo'ldi.</text>
+		<aspectTerms>
+			<aspectTerm term="Sharob" polarity="negative" from="0" to="6"/>
+			<aspectTerm term="xizmat haqini" polarity="negative" from="80" to="93"/>
+			<aspectTerm term="xizmat haqini" polarity="negative" from="80" to="93"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="negative"/>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="379#1">
+		<text>Juda mazali taom, interyer va samimiy xodimlar) hammasi yaxshi</text>
+		<aspectTerms>
+			<aspectTerm term="xodimlar" polarity="positive" from="38" to="46"/>
+			<aspectTerm term="taom" polarity="positive" from="12" to="16"/>
+			<aspectTerm term="interyer" polarity="positive" from="18" to="26"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="positive"/>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="549#1">
+		<text>Keng xonalar qulay va shinam</text>
+		<aspectTerms>
+			<aspectTerm term="xonalar" polarity="positive" from="5" to="12"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="305#5">
+		<text>Toshkentning boshqa muassasasiga nisbatan restoran emas, balki &quot;kafe&quot; toifasiga ega bo'lgan joy .</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="conflict" from="92" to="95"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="221#1">
+		<text>bizning holatlarimizda,Taomning ta'mi ya'niy barbekyu yaxshi emas ...</text>
+		<aspectTerms>
+			<aspectTerm term="Taomning" polarity="negative" from="24" to="32"/>
+			<aspectTerm term="barbekyu" polarity="negative" from="46" to="54"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="340#5">
+		<text>Hafsalasi pir bo'ldi</text>
+		<aspectTerms>
+			<aspectTerm term="Hafsalasi" polarity="negative" from="0" to="9"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="251#8">
+		<text>Bu men buyurtma bergan narsa va u mazali bo'ldi!</text>
+		<aspectTerms>
+			<aspectTerm term="narsa" polarity="positive" from="23" to="28"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="264#1">
+		<text>Xizmat va atmosfera mehmonxonaning yuqori darajadagi restorani kabi yuqori darajada, ammo taomning ta'mi ko'ngilni qoldiradi.</text>
+		<aspectTerms>
+			<aspectTerm term="Xizmat" polarity="positive" from="0" to="6"/>
+			<aspectTerm term="taomning" polarity="negative" from="90" to="98"/>
+			<aspectTerm term="atmosfera" polarity="positive" from="10" to="19"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+			<aspectCategory category="muhit" polarity="negative"/>
+			<aspectCategory category="ovqat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="242#2">
+		<text>Xizmat juda yaxshi va taom juda mazali!</text>
+		<aspectTerms>
+			<aspectTerm term="Xizmat" polarity="positive" from="0" to="6"/>
+			<aspectTerm term="taom" polarity="positive" from="22" to="26"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="54#2">
+		<text>Jasorat bilan boring, shubhasiz, sizga juda mazali taom beriladi.</text>
+		<aspectTerms>
+			<aspectTerm term="taom" polarity="positive" from="52" to="56"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="299#1">
+		<text>Ovqat yaxshi.</text>
+		<aspectTerms>
+			<aspectTerm term="Ovqat" polarity="positive" from="0" to="5"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="37#1">
+		<text>Go'sht yeyuvchilar uchun ajoyib joy</text>
+		<aspectTerms>
+			<aspectTerm term="Go'sht" polarity="positive" from="0" to="6"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="72#1">
+		<text>Bu erda ovqatlanish yoqimli) va shuningdek, men bu erda nega shunchalik kam odamlar kelishadi hayronman.</text>
+		<aspectTerms>
+			<aspectTerm term="ovqatlanish" polarity="positive" from="8" to="19"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="neutral"/>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="92#4">
+		<text>Shunday qo'pol odatiy rus munosabati!</text>
+		<aspectTerms>
+			<aspectTerm term="qo'pol" polarity="negative" from="8" to="14"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="120#1">
+		<text>Bu juda yaxshi.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="165#1">
+		<text>Men sizga juda mazali mahalliy lazzatlarni tatib ko'rishni maslahat beraman</text>
+		<aspectTerms>
+			<aspectTerm term="lazzatlarni" polarity="positive" from="31" to="42"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="279#4">
+		<text>Jonli ovoz sifatida ajoyib musiqa va diskoteka uchun tanlov.</text>
+		<aspectTerms>
+			<aspectTerm term="musiqa" polarity="positive" from="27" to="33"/>
+			<aspectTerm term="diskoteka" polarity="positive" from="37" to="46"/>
+			<aspectTerm term="ovoz" polarity="positive" from="6" to="10"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="106#2">
+		<text>Alohida-alohida, men ularning qizil uy qurilishi sharobini ta'kidlamoqchiman!</text>
+		<aspectTerms>
+			<aspectTerm term="sharobini" polarity="neutral" from="49" to="58"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="318#2">
+		<text>Boshqalaridan bir farqi: ularda sushi bor, ular juda yaxshi.</text>
+		<aspectTerms>
+			<aspectTerm term="sushi" polarity="positive" from="32" to="37"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="120#3">
+		<text>Bu mehribon.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="92#6">
+		<text>Uning ishiga loyiq emas!</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="456#1">
+		<text>Juda qulay restoran</text>
+		<aspectTerms>
+			<aspectTerm term="restoran" polarity="positive" from="11" to="19"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="413#1">
+		<text>Mazali restoran, samimiy ofitsiantlar va mazali taomlar!</text>
+		<aspectTerms>
+			<aspectTerm term="ofitsiantlar" polarity="positive" from="25" to="37"/>
+			<aspectTerm term="taomlar" polarity="positive" from="48" to="55"/>
+			<aspectTerm term="restoran" polarity="positive" from="7" to="15"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="435#2">
+		<text>Arabcha mavzuga ega go'zal joy.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="27" to="30"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="470#2">
+		<text>Albatta u yerga yana boraman</text>
+		<aspectTerms>
+			<aspectTerm term="yerga" polarity="positive" from="10" to="15"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="299#3">
+		<text>Ofitsiantlar samimiy.</text>
+		<aspectTerms>
+			<aspectTerm term="Ofitsiantlar" polarity="positive" from="0" to="12"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="264#3">
+		<text>Shashlik butunlay pishgan va ko'mir bo'lagiga aylangan.</text>
+		<aspectTerms>
+			<aspectTerm term="Shashlik" polarity="negative" from="0" to="8"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="305#7">
+		<text>Shuningdek ofitsiant, qoshni stolga ham ximat qildi va ularga ichmlik quyib berdi, biz esa ichimlikni o'zimiz quyib oldik(ehtimol, u stolda ziyofat katta edi, haqiqiy sabab 🙄 bilmayman), biz bu qiyin emas edi, lekin yana boshqa muassasalar bilan solishtirganda, juda sezilardi.</text>
+		<aspectTerms>
+			<aspectTerm term="ofitsiant" polarity="conflict" from="11" to="20"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="386#1">
+		<text>Yaxshi, toza arabcha taom.</text>
+		<aspectTerms>
+			<aspectTerm term="arabcha taom" polarity="positive" from="13" to="25"/>
+			<aspectTerm term="arabcha taom" polarity="positive" from="13" to="25"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="122#1">
+		<text>Bu joy bir muncha vaqtdan beri bor edi va men nihoyat tug'ilgan kun uchun kechki ovqatga tashrif buyurishga majbur bo'ldim.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="neutral" from="3" to="6"/>
+			<aspectTerm term="kechki ovqatga" polarity="neutral" from="74" to="88"/>
+			<aspectTerm term="kechki ovqatga" polarity="neutral" from="74" to="88"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="neutral"/>
+			<aspectCategory category="ovqat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="117#8">
+		<text>Bizning maftunkor ofitsiantimizga alohida rahmat</text>
+		<aspectTerms>
+			<aspectTerm term="ofitsiantimizga" polarity="positive" from="19" to="34"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="167#1">
+		<text>ajoyib</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="13#2">
+		<text>Gastro-turistlar uchun juda jozibali joy - bu yerda barcha turdagi milliy taomlar mavjud.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="37" to="40"/>
+			<aspectTerm term="taomlar" polarity="neutral" from="74" to="81"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="35#1">
+		<text>Menga hech narsa yoqmadi.</text>
+		<aspectTerms>
+			<aspectTerm term="hech narsa" polarity="negative" from="6" to="16"/>
+			<aspectTerm term="hech narsa" polarity="negative" from="6" to="16"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="70#1">
+		<text>Ajoyib restoran!</text>
+		<aspectTerms>
+			<aspectTerm term="restoran" polarity="positive" from="7" to="15"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="223#1">
+		<text>Daryo bo'yida kechki ovqat uchun yaxshi yozgi joy.</text>
+		<aspectTerms>
+			<aspectTerm term="yozgi joy" polarity="positive" from="40" to="49"/>
+			<aspectTerm term="yozgi joy" polarity="positive" from="40" to="49"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="253#8">
+		<text>Oshpazga vegetarian do‘stlarimning o‘zbek taomlaridan bahramand bo‘lish imkoniyati uchun minnatdorchilik bildirmoqchiman.</text>
+		<aspectTerms>
+			<aspectTerm term="Oshpazga" polarity="positive" from="0" to="8"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="266#1">
+		<text>Ichki makon shunchaki ajoyib va sharqona, taomlari mazali, Yevropa standartlariga javob beradi, xizmat ko'rsatish xodimlari uchun hammasi o'ylangan ... yigitlar juda zo'r, ular o'z ishlarini aniq, tez va samarali bajaradilar.</text>
+		<aspectTerms>
+			<aspectTerm term="Ichki makon" polarity="positive" from="0" to="11"/>
+			<aspectTerm term="Ichki makon" polarity="positive" from="0" to="11"/>
+			<aspectTerm term="taomlari" polarity="positive" from="42" to="50"/>
+			<aspectTerm term="xizmat" polarity="positive" from="96" to="102"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="positive"/>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="321#6">
+		<text>20% xizmat haqi oladigan restoran hech bo'lmaganda barcha taomlarni stolga va to'g'ri odamga olib kelishi kerak.</text>
+		<aspectTerms>
+			<aspectTerm term="20% xizmat haqi" polarity="negative" from="0" to="15"/>
+			<aspectTerm term="20% xizmat haqi" polarity="negative" from="0" to="15"/>
+			<aspectTerm term="20% xizmat haqi" polarity="negative" from="0" to="15"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="28#4">
+		<text>Natijada, men tushlik uchun boshqa joyga jo'nab ketdim</text>
+		<aspectTerms>
+			<aspectTerm term="boshqa joyga" polarity="neutral" from="28" to="40"/>
+			<aspectTerm term="boshqa joyga" polarity="neutral" from="28" to="40"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="96#2">
+		<text>Xizmat muloyim va ofitsiant menyudan biror narsani maslahat berish yoki taklif qilishdan mamnun.</text>
+		<aspectTerms>
+			<aspectTerm term="Xizmat" polarity="positive" from="0" to="6"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="238#2">
+		<text>Radio orqali restoranga tashrif buyuruvchilar kelishgani haqida xabar beriladi.</text>
+		<aspectTerms>
+			<aspectTerm term="Radio" polarity="neutral" from="0" to="5"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="181#2">
+		<text>Ammo narxi qimmat</text>
+		<aspectTerms>
+			<aspectTerm term="narxi" polarity="negative" from="6" to="11"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="515#2">
+		<text>Tavsiya qilaman</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="533#1">
+		<text>Ular juda qimmat</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="15#4">
+		<text>Ammo lazanya biroz yog'li bo'lsa-da, yaxshi edi.</text>
+		<aspectTerms>
+			<aspectTerm term="lazanya" polarity="conflict" from="5" to="12"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="576#1">
+		<text>Pulimni qaytarib berishmadi</text>
+		<aspectTerms>
+			<aspectTerm term="Pulimni" polarity="negative" from="0" to="7"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="301#3">
+		<text>Tailand sho'rva ham yaxshi.</text>
+		<aspectTerms>
+			<aspectTerm term="Tailand sho'rva" polarity="positive" from="0" to="15"/>
+			<aspectTerm term="Tailand sho'rva" polarity="positive" from="0" to="15"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="139#2">
+		<text>Oddiy dizayn.</text>
+		<aspectTerms>
+			<aspectTerm term="dizayn" polarity="neutral" from="6" to="12"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="280#2">
+		<text>Biz har o'yinda shu yerda to'planib, klubimizni qo'llab-quvvatlagan holda futbolni birga tomosha qilamiz!!</text>
+		<aspectTerms>
+			<aspectTerm term="yerda" polarity="neutral" from="20" to="25"/>
+			<aspectTerm term="futbolni" polarity="neutral" from="74" to="82"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="259#3">
+		<text>U yerda siz yaxshi vaqt o'tkazishingiz va dam olishingiz mumkin.</text>
+		<aspectTerms>
+			<aspectTerm term="yerda" polarity="positive" from="2" to="7"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="496#1">
+		<text>Juda mazali!</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="253#10">
+		<text>Biz ajoyib dam oldik va mehmonxonada qolishimizdan zavq oldik.</text>
+		<aspectTerms>
+			<aspectTerm term="mehmonxonada" polarity="positive" from="24" to="36"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="325#2">
+		<text>Qulay joy.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="positive" from="6" to="9"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="244#6">
+		<text>Bu narx uchun juda yuqori sifat!</text>
+		<aspectTerms>
+			<aspectTerm term="sifat" polarity="positive" from="26" to="31"/>
+			<aspectTerm term="narx" polarity="neutral" from="3" to="7"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="346#1">
+		<text>Jonli musiqa zo'r, lekin ovqat hammasi yaxshi emas, menga bazilari yoqmadi, faqat salatlar yaxshi, ehtimol go'sht yaxshi emasdir, lekin bu hammasi emas ...</text>
+		<aspectTerms>
+			<aspectTerm term="go'sht" polarity="neutral" from="107" to="113"/>
+			<aspectTerm term="musiqa" polarity="positive" from="6" to="12"/>
+			<aspectTerm term="ovqat" polarity="negative" from="25" to="30"/>
+			<aspectTerm term="salatlar" polarity="positive" from="82" to="90"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="303#1">
+		<text>Juda yomon joy, idishlar mazali emas.</text>
+		<aspectTerms>
+			<aspectTerm term="joy" polarity="negative" from="11" to="14"/>
+			<aspectTerm term="idishlar" polarity="negative" from="16" to="24"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="negative"/>
+			<aspectCategory category="ovqat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="69#1">
+		<text>Ular tez, lekin taom hech qanday maxsus emas, men noddle sho'rva buyurtma qildim va u juda sho'r edi.</text>
+		<aspectTerms>
+			<aspectTerm term="noddle sho'rva" polarity="negative" from="50" to="64"/>
+			<aspectTerm term="noddle sho'rva" polarity="negative" from="50" to="64"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="282#1">
+		<text>Yangi menyu, yangi odamlar, yangi Shou pragrammasi, barchani &quot;Sulton&quot; restoranimizga tashrif buyurishga va yoqimli oqshom o'tkazishga taklif qilamiz.</text>
+		<aspectTerms>
+			<aspectTerm term="menyu" polarity="positive" from="6" to="11"/>
+			<aspectTerm term="odamlar" polarity="positive" from="19" to="26"/>
+			<aspectTerm term="Shou pragrammasi," polarity="positive" from="34" to="51"/>
+			<aspectTerm term="Shou pragrammasi," polarity="positive" from="34" to="51"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="325#3">
+		<text>Buyurtma qilingan sushi va salatlar nomlari esimda yo'q.</text>
+		<aspectTerms>
+			<aspectTerm term="sushi va salatlar" polarity="neutral" from="18" to="35"/>
+			<aspectTerm term="sushi va salatlar" polarity="neutral" from="18" to="35"/>
+			<aspectTerm term="sushi va salatlar" polarity="neutral" from="18" to="35"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="244#7">
+		<text>To'xtamang!</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="253#11">
+		<text>Rahmat!</text>
+		<aspectTerms>
+			<aspectTerm term="Rahmat" polarity="positive" from="0" to="6"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="517#1">
+		<text>U yerdan mamnunman</text>
+		<aspectTerms>
+			<aspectTerm term="yerdan" polarity="positive" from="2" to="10"/>
+			<aspectTerm term="yerdan" polarity="positive" from="2" to="10"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="552#1">
+		<text>Visol</text>
+		<aspectTerms>
+			<aspectTerm term="Visol" polarity="neutral" from="0" to="5"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="94#1">
+		<text>Hammasi zo'r edi va uchta xonim opa-singillar kabi juda maftunkor edi.</text>
+		<aspectTerms>
+			<aspectTerm term="Hammasi" polarity="positive" from="0" to="7"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="259#2">
+		<text>Hammaga tavsiya eting.</text>
+		<aspectTerms>
+			<aspectTerm term="Hammaga" polarity="positive" from="0" to="7"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="139#3">
+		<text>Yorqin yoritish.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="301#2">
+		<text>Salatlar mazali.</text>
+		<aspectTerms>
+			<aspectTerm term="Salatlar" polarity="positive" from="0" to="8"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="362#1">
+		<text>Mening sevimli joyim.</text>
+		<aspectTerms>
+			<aspectTerm term="joyim" polarity="positive" from="15" to="20"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="327#1">
+		<text>Yaxshi oilaviy joy.</text>
+		<aspectTerms>
+			<aspectTerm term="oilaviy joy" polarity="positive" from="7" to="18"/>
+			<aspectTerm term="oilaviy joy" polarity="positive" from="7" to="18"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="15#5">
+		<text>Lazzat 7,5/10</text>
+		<aspectTerms>
+			<aspectTerm term="Lazzat" polarity="positive" from="0" to="6"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="238#3">
+		<text>Kirish joyi 🅿 bir nechta avtomobil uchun.</text>
+		<aspectTerms>
+			<aspectTerm term="Kirish joyi" polarity="neutral" from="0" to="11"/>
+			<aspectTerm term="Kirish joyi" polarity="neutral" from="0" to="11"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="96#3">
+		<text>Biz olgan qismlar kichik bo'lib tuyuldi, lekin bu salat va gazaklar edi, bu umuman yaxshi.</text>
+		<aspectTerms>
+			<aspectTerm term="salat va gazaklar" polarity="positive" from="50" to="67"/>
+			<aspectTerm term="salat va gazaklar" polarity="positive" from="50" to="67"/>
+			<aspectTerm term="salat va gazaklar" polarity="positive" from="50" to="67"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="321#7">
+		<text>Oziq-ovqat sifati yaxshi edi - menda yaxshi ko'rlgan gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari (ular ham yaxshi).</text>
+		<aspectTerms>
+			<aspectTerm term="Oziq-ovqat" polarity="positive" from="0" to="10"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+			<aspectTerm term="gulkaram sho'rvasi, panjara qilingan sabzavotlar (99% baqlajon, armancha xorovat uslubida beriladi) va panjara qo'ziqorinlari" polarity="positive" from="53" to="178"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="253#9">
+		<text>Mehmonxona juda chiroyli, xonalar juda keng, tabassumli xodimlar.</text>
+		<aspectTerms>
+			<aspectTerm term="xodimlar" polarity="positive" from="56" to="64"/>
+			<aspectTerm term="Mehmonxona" polarity="positive" from="0" to="10"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="positive"/>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="472#1">
+		<text>Hammasi juda mazali!</text>
+		<aspectTerms>
+			<aspectTerm term="Hammasi" polarity="positive" from="0" to="7"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="437#1">
+		<text>Juda mazali O'zbekiston oshi</text>
+		<aspectTerms>
+			<aspectTerm term="O'zbekiston oshi" polarity="positive" from="12" to="28"/>
+			<aspectTerm term="O'zbekiston oshi" polarity="positive" from="12" to="28"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="570#6">
+		<text>Lekin taom mazali.</text>
+		<aspectTerms>
+			<aspectTerm term="taom" polarity="positive" from="6" to="10"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="13#3">
+		<text>Yagona salbiy tomoni shundaki, bunday yirik muassasa uchun to'xtash joyi kichik.</text>
+		<aspectTerms>
+			<aspectTerm term="to'xtash joyi" polarity="negative" from="59" to="72"/>
+			<aspectTerm term="to'xtash joyi" polarity="negative" from="59" to="72"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="207#1">
+		<text>Mazali va arzon</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="narx" polarity="positive"/>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="242#1">
+		<text>Hyatt rezidentsiyasidagi Xiva kechki ovqat uchun ajoyib tanlovdir.</text>
+		<aspectTerms>
+			<aspectTerm term="Hyatt rezidentsiyasidagi Xiva" polarity="positive" from="0" to="29"/>
+			<aspectTerm term="Hyatt rezidentsiyasidagi Xiva" polarity="positive" from="0" to="29"/>
+			<aspectTerm term="Hyatt rezidentsiyasidagi Xiva" polarity="positive" from="0" to="29"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="264#2">
+		<text>Ovqat pishirish ko'nikmalari oziq-ovqat ingredientlarining sifati bilan solishtirganda umidsizlikka uchraydi.</text>
+		<aspectTerms>
+			<aspectTerm term="oziq-ovqat" polarity="conflict" from="29" to="39"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="305#6">
+		<text>Aksincha, men bir xil e'tiborsizlikni, sekinlikni yoqtirmadim.</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="435#3">
+		<text>Mazali taom, lekin uni kutish uchun ko'proq vaqt kerak.</text>
+		<aspectTerms>
+			<aspectTerm term="taom" polarity="conflict" from="7" to="11"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="conflict"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="72#2">
+		<text>Tavsiya etilgan</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="299#2">
+		<text>Taomlarning ba'zilari Toshkentda eng yaxshi ta'mga ega.</text>
+		<aspectTerms>
+			<aspectTerm term="Taomlarning" polarity="positive" from="0" to="11"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="11#1">
+		<text>Ajoyib</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="54#1">
+		<text>Ular har doim mazali bo'lib kelgan.</text>
+		<aspectTerms>
+			<aspectTerm term="mazali" polarity="positive" from="14" to="20"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="106#1">
+		<text>Turli va juda mazali taomlari bilan (milliydan yevropachagacha) juda qulay, samimiy joy.</text>
+		<aspectTerms>
+			<aspectTerm term="taomlari" polarity="positive" from="21" to="29"/>
+			<aspectTerm term="joy" polarity="positive" from="84" to="87"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+			<aspectCategory category="muhit" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="143#1">
+		<text>Zo'r</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="592#1">
+		<text>Qo'ng'iroqlarga javob bermaydi,mas'uliyatsiz</text>
+		<aspectTerms>
+			<aspectTerm term="mas'uliyatsiz" polarity="negative" from="32" to="45"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="xizmat" polarity="negative"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="92#7">
+		<text>Agar u buni juda yomon ko'rsa, u ketishi kerak va kimdir u erda ishlashga loyiq bo'lsa, bu buldogga munosabatda emas!</text>
+		<aspectTerms>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="boshqalar" polarity="neutral"/>
+		</aspectCategories>
+	</sentence>
+	<sentence id="120#2">
+		<text>Mazali.</text>
+		<aspectTerms>
+			<aspectTerm term="Mazali" polarity="positive" from="0" to="6"/>
+		</aspectTerms>
+		<aspectCategories>
+			<aspectCategory category="ovqat" polarity="positive"/>
+		</aspectCategories>
+	</sentence>
+</sentences>

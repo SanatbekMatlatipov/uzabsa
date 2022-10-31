@@ -4,6 +4,8 @@ from xml.etree import ElementTree
 
 def run(files):
     xml_files = glob.glob(files + "/*.xml")
+    print(files)
+    print(xml_files)
     xml_element_tree = None
     for xml_file in xml_files:
         # get root
@@ -14,7 +16,7 @@ def run(files):
             else:
                 xml_element_tree.extend(result)
     if xml_element_tree is not None:
-        ElementTree.ElementTree(xml_element_tree).write('merged.xml')
+        ElementTree.ElementTree(xml_element_tree).write('./data/rest.xml')
 
 
-run('xml-files')
+run('data/xml-files')
