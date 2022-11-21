@@ -11,6 +11,9 @@ try:
     from xml.sax.saxutils import escape
     import krippendorff as kp
     from sklearn.metrics import confusion_matrix, cohen_kappa_score
+    import pandas as pd
+    import numpy as np
+    import re
 except:
     sys.exit('Some package is missing... Perhaps <re>?')
 
@@ -144,13 +147,45 @@ class Evaluate:
         self.predicted = predicted
 
     def krippendorff_alpha(self, type):
-        reliability_data = [
-            ['ofitsiantning', 'his-tuyg\'ular', 'u yerga', 'XIZMAT', 'oilamiz', '**', 'oshxona'],
-            ['ofitsiantning', 'his-tuyg\'ular', 'u yerga', 'XIZMAT', '**', 'Stol', 'oshxona']
-        ]
+        new_gold = []
+        new_test = []
+        for i in range(self.size):
+            gold = self.correct[i].get_aspect_terms()
+            test = self.predicted[i].get_aspect_terms()
+            gold.sort()
+            test.sort()
 
-        alpha = kp.alpha(reliability_data=reliability_data, level_of_measurement=type)
-        print("Krippendorff's alpha for nominal metric: ", alpha)
+            # cnt = 0
+            for j in range(max(len(gold), len(test))):
+                try:
+                    goldJ = re.sub(r'[^\w]', ' ', gold[j])
+                    testJ = re.sub(r'[^\w]', ' ', test[j])
+                    if goldJ != testJ:
+                        new_gold.append(goldJ)
+                        # new_test.append("**")
+                        new_test.append(np.nan)
+
+                        # new_gold.append("**")
+                        new_gold.append(np.nan)
+                        new_test.append(testJ)
+                    else:
+                        new_test.append(testJ)
+                        new_gold.append(goldJ)
+                except IndexError:
+                    if len(test) < j:
+                        # new_test.append("**")
+                        new_test.append(np.nan)
+                    if len(gold) < j:
+                        new_gold.append(np.nan)
+                        # new_gold.append("**")
+
+        reliability_data = [new_gold, new_test]
+        myset = set(new_gold)
+        myset.update(new_test)
+        alpha = kp.alpha(reliability_data=reliability_data, value_domain=list(myset), level_of_measurement=type)
+        print("Krippendorff's alpha for {} metric: ".format(type), alpha)
+        print("Cohen kappa = ", cohen_kappa_score(new_gold, new_test))
+
         return alpha
 
     def aspect_extraction(self, b=1):
@@ -284,6 +319,8 @@ def main(argv=None):
               .aspect_category_polarity_estimation())
     if task == 5:
         Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).krippendorff_alpha("nominal")
+        # Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).krippendorff_alpha("ordinal")
+        # Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).krippendorff_alpha("ratio")
 
 
 if __name__ == "__main__": main(sys.argv[1:])
