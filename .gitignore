@@ -312,3 +312,8 @@ cython_debug/
 # End of https://www.toptal.com/developers/gitignore/api/intellij,python,macos
 /uzabsa-base-eval-valid/evaluations/
 /uzabsa-base-eval-valid/.idea/
+/data/ann-files/
+/data/manual_evaluation_gold/
+/data/manual_evaluation_test/
+/data/result/
+/data/xml-files/
