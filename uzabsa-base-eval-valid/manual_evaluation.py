@@ -5,7 +5,6 @@ __version__ = ""
 __maintainer__ = ""
 __email__ = "{s.matlatipov, j.rajabov}@nuu.uz"
 
-
 try:
     import xml.etree.ElementTree as ET, getopt, logging, sys, random, re, copy
     from xml.sax.saxutils import escape
@@ -16,7 +15,6 @@ try:
     import re
 except:
     sys.exit('Some package is missing... Perhaps <re>?')
-
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -142,11 +140,24 @@ class Evaluate:
     """Manual evaluation of subtask"""
 
     def __init__(self, correct, predicted):
+        self.value_domains_str = None
         self.size = len(correct)
         self.correct = correct
         self.predicted = predicted
+        self.reliability_data = self.get_reliability_data_str()
 
-    def krippendorff_alpha(self, type):
+    def krippendorff_alpha(self, krippendorff_metric_type):
+        self.get_value_domains_str()
+        alpha = kp.alpha(reliability_data=self.reliability_data, value_domain=list(self.value_domains_str),
+                         level_of_measurement=krippendorff_metric_type)
+        print("Krippendorff's alpha for {} metric: ".format(type), alpha)
+        return alpha
+
+    def get_value_domains_str(self):
+        self.value_domains_str = set(self.reliability_data[0])
+        self.value_domains_str.update(self.reliability_data[1])
+
+    def get_reliability_data_str(self):
         new_gold = []
         new_test = []
         for i in range(self.size):
@@ -178,15 +189,7 @@ class Evaluate:
                     if len(gold) < j:
                         new_gold.append(np.nan)
                         # new_gold.append("**")
-
-        reliability_data = [new_gold, new_test]
-        myset = set(new_gold)
-        myset.update(new_test)
-        alpha = kp.alpha(reliability_data=reliability_data, value_domain=list(myset), level_of_measurement=type)
-        print("Krippendorff's alpha for {} metric: ".format(type), alpha)
-        print("Cohen kappa = ", cohen_kappa_score(new_gold, new_test))
-
-        return alpha
+        return [new_gold, new_test]
 
     def aspect_extraction(self, b=1):
         manual_common, manual_gold, manual_test = 0., 0., 0.
@@ -320,7 +323,7 @@ def main(argv=None):
     if task == 5:
         Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).krippendorff_alpha("nominal")
         # Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).krippendorff_alpha("ordinal")
-        # Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).krippendorff_alpha("ratio")
+        # Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).krippendorff_alpha("interval")
 
 
 if __name__ == "__main__": main(sys.argv[1:])
