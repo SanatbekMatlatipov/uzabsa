@@ -291,10 +291,10 @@ class BaselineStageI():
 
 
 class BaselineAspectPolarityEstimator():
-    '''Estimate the polarity of an instance's aspects.
+    """Estimate the polarity of an instance's aspects.
     This is a majority baseline.
     Form the <aspect,polarity> tuples from the train data, and measure frequencies.
-    Then, given a new instance, vote for the polarities of the aspect terms (given).'''
+    Then, given a new instance, vote for the polarities of the aspect terms (given)."""
 
     def __init__(self, corpus):
         self.corpus = corpus
@@ -369,8 +369,8 @@ class BaselineAspectCategoryPolarityEstimator():
 
 
 class BaselineStageII():
-    '''Stage II: Aspect Term and Aspect Category Polarity Estimation.
-    Terms and categories are assumed given.'''
+    """Stage II: Aspect Term and Aspect Category Polarity Estimation.
+    Terms and categories are assumed given."""
 
     # Baselines 3 and 4 are assumed given.
     def __init__(self, b3, b4):
@@ -390,7 +390,7 @@ class BaselineStageII():
 
 
 class Evaluate():
-    '''Evaluation methods, per subtask of the 4th task of SemEval '14.'''
+    """Evaluation methods, per subtask of the 4th task of SemEval '14."""
 
     def __init__(self, correct, predicted):
         self.size = len(correct)
@@ -493,6 +493,7 @@ def main(argv=None):
     # Perform the tasks, asked by the user and print the files with the predicted responses.
     if task == 1:
         b1 = BaselineAspectExtractor(traincorpus)
+        print(b1.candidates)
         print('Extracting aspect terms...')
         predicted = b1.tag(unseen.corpus)
         corpus.write_out('%s--test.predicted-aspect.xml' % domain_name, predicted, short=False)

@@ -16,7 +16,7 @@ def run(files):
             else:
                 xml_element_tree.extend(result)
     if xml_element_tree is not None:
-        ElementTree.ElementTree(xml_element_tree).write('./data/rest.xml')
+        ElementTree.ElementTree(xml_element_tree).write('uzabsa-base-eval-valid/rest-manual-gold.xml')
 
 
 run('data/xml-files')

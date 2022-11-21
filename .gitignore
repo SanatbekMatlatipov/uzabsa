@@ -310,3 +310,5 @@ cython_debug/
 #.idea/
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,python,macos
+/uzabsa-base-eval-valid/evaluations/
+/uzabsa-base-eval-valid/.idea/
