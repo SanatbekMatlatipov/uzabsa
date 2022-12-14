@@ -150,7 +150,6 @@ class Evaluate:
         self.get_value_domains_str()
         alpha = kp.alpha(reliability_data=self.reliability_data, value_domain=list(self.value_domains_str),
                          level_of_measurement=krippendorff_metric_type)
-        print("Krippendorff's alpha for {} metric: ".format(type), alpha)
         return alpha
 
     def get_value_domains_str(self):
@@ -165,30 +164,23 @@ class Evaluate:
             test = self.predicted[i].get_aspect_terms()
             gold.sort()
             test.sort()
-
-            # cnt = 0
             for j in range(max(len(gold), len(test))):
                 try:
-                    goldJ = re.sub(r'[^\w]', ' ', gold[j])
-                    testJ = re.sub(r'[^\w]', ' ', test[j])
+                    goldJ = re.sub(r'\W', ' ', gold[j])
+                    testJ = re.sub(r'\W', ' ', test[j])
                     if goldJ != testJ:
                         new_gold.append(goldJ)
-                        # new_test.append("**")
                         new_test.append(np.nan)
-
-                        # new_gold.append("**")
                         new_gold.append(np.nan)
                         new_test.append(testJ)
                     else:
                         new_test.append(testJ)
                         new_gold.append(goldJ)
                 except IndexError:
-                    if len(test) < j:
-                        # new_test.append("**")
-                        new_test.append(np.nan)
                     if len(gold) < j:
                         new_gold.append(np.nan)
-                        # new_gold.append("**")
+                    if len(test) < j:
+                        new_test.append(np.nan)
         return [new_gold, new_test]
 
     def aspect_extraction(self, b=1):
@@ -204,6 +196,19 @@ class Evaluate:
         f1 = (1 + (b ** 2)) * p * r / ((p * b ** 2) + r) if p > 0 and r > 0 else 0.
         return p, r, f1, manual_common, manual_test, manual_gold
 
+    def aspect_extraction_cohen_kappa(self, b=1):
+        manual_gold, manual_test = [], []
+        for i in range(self.size):
+            temp_gold_list = []
+            temp_test_list = []
+            for a in self.correct[i].aspect_terms:
+                temp_gold_list.append(a.term)
+            for a in self.predicted[i].aspect_terms:
+                temp_test_list.append(a.term)
+            manual_gold = manual_gold + sorted(temp_gold_list)
+            manual_test = manual_test + sorted(temp_test_list)
+        return cohen_kappa_score(manual_gold, manual_test)
+
     # Aspect Category Detection
     def category_detection(self, b=1):
         manual_common, manual_gold, manual_test = 0., 0., 0.
@@ -218,6 +223,21 @@ class Evaluate:
         r = manual_common / manual_gold
         f1 = (1 + b ** 2) * p * r / ((p * b ** 2) + r) if p > 0 and r > 0 else 0.
         return p, r, f1, manual_common, manual_test, manual_gold
+
+    def aspect_category_detection_cohen_kappa(self, b=1):
+        manual_gold, manual_test = [], []
+        for i in range(self.size):
+            temp_gold_list = []
+            temp_test_list = []
+            for a in list(self.correct[i].aspect_categories):
+                temp_gold_list.append(a.term)
+            for a in list(self.predicted[i].aspect_categories):
+                temp_test_list.append(a.term)
+            manual_gold = manual_gold + sorted(temp_gold_list)
+            manual_test = manual_test + sorted(temp_test_list)
+            if len(self.correct[i].aspect_categories) != len(self.predicted[i].aspect_categories):
+                print("ID missed = ", self.correct[i].id)
+        return cohen_kappa_score(manual_gold, manual_test)
 
     def aspect_polarity_estimation(self, b=1):
         common, relevant, retrieved = 0., 0., 0.
@@ -236,10 +256,9 @@ class Evaluate:
                 manual_gold.append(a.polarity)
             for a in self.predicted[i].aspect_terms:
                 manual_test.append(a.polarity)
+            if len(self.correct[i].aspect_terms) != len(self.predicted[i].aspect_terms):
+                print("ID missed = ", self.correct[i].id)
 
-        print(manual_gold)
-        # print(manual_test)
-        print(confusion_matrix(manual_gold, manual_test))
         return cohen_kappa_score(manual_gold, manual_test)
 
     def aspect_category_polarity_estimation(self, b=1):
@@ -251,6 +270,20 @@ class Evaluate:
             retrieved += len(pre)
         acc = common / retrieved
         return acc, common, retrieved
+
+    def aspect_category_polarity_kappa_cohen_estimation(self, b=1):
+        manual_gold, manual_test = [], []
+        for i in range(self.size):
+            temp_gold_list = []
+            temp_test_list = []
+            for a in self.correct[i].aspect_categories:
+                manual_gold.append(a.polarity)
+            for a in self.predicted[i].aspect_categories:
+                manual_test.append(a.polarity)
+            if len(self.correct[i].aspect_categories) != len(self.predicted[i].aspect_categories):
+                print("ID missed = ", self.correct[i].id)
+        return cohen_kappa_score(manual_gold, manual_test)
+
 
 
 def main(argv=None):
@@ -283,47 +316,41 @@ def main(argv=None):
 
     # Get the corpus and split into train/test.
     manual_corpus_gold = Corpus(ET.parse(trainfile).getroot().findall('sentence'))
-    manual_corpus_test = Corpus(ET.parse('rest-manual-test.xml').getroot().findall('sentence'))
-
-    if task == -1:
-        print('\n------- Aspect terms --------')
-        print('P = %f -- R = %f -- F1 = %f (#correct: %d, #retrieved: '
-              '%d, #relevant: %d)' % Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).aspect_extraction())
-        print('\n------- Aspect Categories --------')
-        print('P = %f -- R = %f -- F1 = %f (#correct: %d, #retrieved: '
-              '%d, #relevant: %d)' % Evaluate(manual_corpus_gold.corpus,
-                                              manual_corpus_test.corpus).category_detection())
-        print('\n------- Aspect term polarity --------')
-        print('Accuracy = %f, #Correct/#All: %d/%d' % Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
-              .aspect_polarity_estimation())
-        print('\n-------- Aspect Category polarity  --------')
-        print('Accuracy = %f, #Correct/#All: %d/%d' % Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
-              .aspect_category_polarity_estimation())
+    manual_corpus_test = Corpus(ET.parse('rest-manual-test-cohen-kapp.xml').getroot().findall('sentence'))
 
     if task == 1:
         print('------- Aspect terms --------')
-        print('P = %f -- R = %f -- F1 = %f (#correct: %d, #retrieved: '
-              '%d, #relevant: %d)' % Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).aspect_extraction())
+        print('P = %f -- R = %f -- F1 = %f (#correct: %d, #retrieved-test: '
+              '%d, #relevant-gold: %d)' % Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).aspect_extraction())
+        print('Cohen\'s kappa = ', Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
+              .aspect_extraction_cohen_kappa())
+        print('Krippendorff nominal metric = ', Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
+              .krippendorff_alpha("nominal"))
 
     if task == 2:
-        print('------- Aspect Categories --------')
-        print('P = %f -- R = %f -- F1 = %f (#correct: %d, #retrieved: '
-              '%d, #relevant: %d)' % Evaluate(manual_corpus_gold.corpus,
-                                              manual_corpus_test.corpus).category_detection())
-    if task == 3:
         print('Aspect term polarity...')
         print('Accuracy = %f, #Correct/#All: %d/%d' % Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
               .aspect_polarity_estimation())
         print('Cohen Kappa Accuracy = %f,' % Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
               .aspect_polarity_kappa_cohen_estimation())
+        print('Krippendorff nominal metric = ', Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
+              .krippendorff_alpha("nominal"))
+
+    if task == 3:
+        print('------- Aspect Categories --------')
+        print('P = %f -- R = %f -- F1 = %f (#correct: %d, #retrieved: '
+              '%d, #relevant: %d)' % Evaluate(manual_corpus_gold.corpus,
+                                              manual_corpus_test.corpus).category_detection())
+        print('Cohen\'s kappa = ', Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
+              .aspect_category_detection_cohen_kappa())
+
     if task == 4:
         print('Estimating aspect category polarity...')
         print('Accuracy = %f, #Correct/#All: %d/%d' % Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
               .aspect_category_polarity_estimation())
-    if task == 5:
-        Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).krippendorff_alpha("nominal")
-        # Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).krippendorff_alpha("ordinal")
-        # Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).krippendorff_alpha("interval")
+        print('Cohen Kappa Accuracy = %f,' % Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
+              .aspect_category_polarity_kappa_cohen_estimation())
+
 
 
 if __name__ == "__main__": main(sys.argv[1:])
