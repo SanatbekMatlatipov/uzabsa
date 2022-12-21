@@ -146,10 +146,24 @@ class Evaluate:
         self.predicted = predicted
         self.reliability_aspect_terms_data = self.get_reliability_aspect_terms_data()
         self.reliability_aspect_terms_polarity = self.get_reliability_aspect_terms_polarity()
+        self.reliability_aspect_categories_data = self.get_reliability_aspect_category_data()
+        self.reliability_aspect_categoty_polarity = self.get_reliability_aspect_categories_polarities()
 
     def krippendorff_alpha_aspect_terms(self, krippendorff_metric_type):
         self.get_aspect_terms_value_domains_str()
         alpha = kp.alpha(reliability_data=self.reliability_aspect_terms_data, value_domain=list(self.value_domains_str),
+                         level_of_measurement=krippendorff_metric_type)
+        return alpha
+
+    def krippendorff_alpha_aspect_terms_polarity(self, krippendorff_metric_type):
+        self.get_aspect_terms_value_domains_str()
+        alpha = kp.alpha(reliability_data=self.reliability_aspect_terms_polarity,
+                         level_of_measurement=krippendorff_metric_type)
+        return alpha
+
+    def krippendorff_alpha_aspect_categories(self, krippendorff_metric_type):
+        alpha = kp.alpha(reliability_data=self.reliability_aspect_categories_data,
+                         value_domain=list(['ovqat', 'xizmat', 'muhit', 'narx', 'boshqalar']),
                          level_of_measurement=krippendorff_metric_type)
         return alpha
 
@@ -169,34 +183,7 @@ class Evaluate:
         for i in range(self.size):
             gold = self.correct[i].get_aspect_terms()
             test = self.predicted[i].get_aspect_terms()
-            gold = sorted(gold)
-            test = sorted(test)
-            for j in range(max(len(gold), len(test))):
-                try:
-                    goldJ = re.sub(r'[^\w]', ' ', gold[j])
-                    testJ = re.sub(r'[^\w]', ' ', test[j])
-                    if goldJ != testJ:
-                        new_gold.append(goldJ)
-                        new_test.append(np.nan)
-                        new_gold.append(np.nan)
-                        new_test.append(testJ)
-                    else:
-                        new_test.append(testJ)
-                        new_gold.append(goldJ)
-                except IndexError:
-                    if len(gold) < j:
-                        new_gold.append(np.nan)
-                    if len(test) < j:
-                        new_test.append(np.nan)
-        # print("Gold length = ", len(new_gold))
-        # print("Test length = ", len(new_test))
-        # print("Unique gold = ", len(set(new_gold)))
-        # print("Unique test = ", len(set(new_test)))
-        # cnt = 0
-        # for i in range(len(new_gold)):
-        #     if new_gold[i] != new_test[i]:
-        #         cnt = cnt + 1
-        # print("not equal strings cnt = ", cnt)
+            self.get_reliability_data(gold, new_gold, new_test, test)
         return [new_gold, new_test]
 
     def get_reliability_aspect_terms_polarity(self):
@@ -221,6 +208,55 @@ class Evaluate:
                         new_gold.append(cor_polarities[cor_idx])
                         new_test.append(pre_polarities[pre_idx])
         return [new_gold, new_test]
+
+    def get_reliability_aspect_category_data(self):
+        new_gold = []
+        new_test = []
+        for i in range(self.size):
+            gold = self.correct[i].get_aspect_categories()
+            test = self.predicted[i].get_aspect_categories()
+            gold = sorted(gold)
+            test = sorted(test)
+            new_gold = new_gold + gold
+            new_test = new_test + test
+        return [new_gold, new_test]
+
+    def get_reliability_aspect_categories_polarities(self):
+        new_gold, new_test = [], []
+        for i in range(self.size):
+            cor_polarities = self.correct[i].aspect_categories
+            pre_polarities = self.predicted[i].aspect_categories
+            new_gold = new_gold + cor_polarities
+            new_test = new_test + pre_polarities
+        return [new_gold, new_test]
+
+
+    @staticmethod
+    def get_reliability_data(gold, new_gold, new_test, test):
+        gold = sorted(gold)
+        test = sorted(test)
+        # print("Gold: ---> ", gold)
+        # print("Test: ---> ", test)
+        # print("----- ")
+        cnt = 0
+        for j in range(max(len(gold), len(test))):
+            try:
+                goldJ = re.sub(r'[^\w]', ' ', gold[j])
+                testJ = re.sub(r'[^\w]', ' ', test[j])
+                if goldJ != testJ:
+                    cnt = cnt + 1
+                    new_gold.append(goldJ)
+                    new_test.append(np.nan)
+                    new_gold.append(np.nan)
+                    new_test.append(testJ)
+                else:
+                    new_test.append(testJ)
+                    new_gold.append(goldJ)
+            except IndexError:
+                if len(gold) < j:
+                    new_gold.append(np.nan)
+                if len(test) < j:
+                    new_test.append(np.nan)
 
     def aspect_extraction(self, b=1):
         manual_common, manual_gold, manual_test = 0., 0., 0.
@@ -381,6 +417,8 @@ def main(argv=None):
                                               manual_corpus_test.corpus).category_detection())
         print('Cohen\'s kappa = ', Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
               .aspect_category_detection_cohen_kappa())
+        print('Krippendorff nominal metric = ', Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
+              .krippendorff_alpha_aspect_categories("nominal"))
 
     if task == 4:
         print('\nEstimating aspect category polarity...')
@@ -388,6 +426,9 @@ def main(argv=None):
               .aspect_category_polarity_estimation())
         print('Cohen Kappa Accuracy = %f,' % Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
               .aspect_category_polarity_kappa_cohen_estimation())
+        print('Krippendorff nominal metric = ', Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
+              .krippendorff_alpha_aspect_terms_polarity("nominal"))
+
 
 
 
