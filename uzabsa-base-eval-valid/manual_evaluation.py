@@ -13,6 +13,8 @@ try:
     import pandas as pd
     import numpy as np
     import re
+    import matplotlib.pyplot as plt
+    import seaborn as sns
 except:
     sys.exit('Some package is missing... Perhaps <re>?')
 
@@ -165,6 +167,8 @@ class Evaluate:
         alpha = kp.alpha(reliability_data=self.reliability_aspect_categories_data,
                          value_domain=list(['ovqat', 'xizmat', 'muhit', 'narx', 'boshqalar']),
                          level_of_measurement=krippendorff_metric_type)
+        # value_counts = kp._reliability_data_to_value_counts(reliability_data, value_domain)
+        # alpha.
         return alpha
 
     def krippendorff_alpha_aspect_terms_polarity(self, krippendorff_metric_type):
@@ -230,14 +234,10 @@ class Evaluate:
             new_test = new_test + pre_polarities
         return [new_gold, new_test]
 
-
     @staticmethod
     def get_reliability_data(gold, new_gold, new_test, test):
         gold = sorted(gold)
         test = sorted(test)
-        # print("Gold: ---> ", gold)
-        # print("Test: ---> ", test)
-        # print("----- ")
         cnt = 0
         for j in range(max(len(gold), len(test))):
             try:
@@ -282,8 +282,20 @@ class Evaluate:
                 temp_test_list.append(a.term)
             manual_gold = manual_gold + sorted(temp_gold_list)
             manual_test = manual_test + sorted(temp_test_list)
+
         return cohen_kappa_score(manual_gold, manual_test)
 
+    def get_confusion_matrix_heatmap(self, manual_gold, manual_test, labels, title):
+        confusion = confusion_matrix(manual_gold, manual_test, labels=labels)
+        ax = plt.subplot()
+        sns.heatmap(confusion, annot=True, fmt='g', ax=ax)
+        # labels, title and ticks
+        ax.set_xlabel('Test labels')
+        ax.set_ylabel('Gold labels')
+        ax.set_title(title);
+        ax.xaxis.set_ticklabels(list(labels))
+        ax.yaxis.set_ticklabels(list(labels))
+        plt.show()
     # Aspect Category Detection
     def category_detection(self, b=1):
         manual_common, manual_gold, manual_test = 0., 0., 0.
@@ -312,7 +324,10 @@ class Evaluate:
             manual_test = manual_test + sorted(temp_test_list)
             if len(self.correct[i].aspect_categories) != len(self.predicted[i].aspect_categories):
                 print("ID missed = ", self.correct[i].id)
-        return cohen_kappa_score(manual_gold, manual_test)
+        labels = ['ovqat', 'xizmat', 'narx', 'muhit', 'boshqalar']
+        self.get_confusion_matrix_heatmap(manual_gold, manual_test, labels, 'Aspect Category term Confusion Matrix')
+        alpha = cohen_kappa_score(manual_gold, manual_test, labels=labels)
+        return alpha
 
     def aspect_polarity_estimation(self, b=1):
         common, relevant, retrieved = 0., 0., 0.
@@ -333,8 +348,9 @@ class Evaluate:
                 manual_test.append(a.polarity)
             if len(self.correct[i].aspect_terms) != len(self.predicted[i].aspect_terms):
                 print("ID missed = ", self.correct[i].id)
-
-        return cohen_kappa_score(manual_gold, manual_test)
+        labels = ['positive', 'negative', 'neutral', 'conflict']
+        self.get_confusion_matrix_heatmap(manual_gold, manual_test, labels, 'Aspect Terms Polarity Confusion Matrix')
+        return cohen_kappa_score(manual_gold, manual_test, labels=labels)
 
     def aspect_category_polarity_estimation(self, b=1):
         common, relevant, retrieved = 0., 0., 0.
@@ -357,6 +373,9 @@ class Evaluate:
                 manual_test.append(a.polarity)
             if len(self.correct[i].aspect_categories) != len(self.predicted[i].aspect_categories):
                 print("ID missed = ", self.correct[i].id)
+        labels = ['positive', 'negative', 'neutral', 'conflict']
+        self.get_confusion_matrix_heatmap(manual_gold, manual_test, labels, 'Aspect Category Terms Polarity Confusion Matrix')
+
         return cohen_kappa_score(manual_gold, manual_test)
 
 
@@ -395,7 +414,8 @@ def main(argv=None):
     if task == 1:
         print('\n------- Aspect terms --------')
         print('P = %f -- R = %f -- F1 = %f (#correct: %d, #retrieved-test: '
-              '%d, #relevant-gold: %d)' % Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus).aspect_extraction())
+              '%d, #relevant-gold: %d)' % Evaluate(manual_corpus_gold.corpus,
+                                                   manual_corpus_test.corpus).aspect_extraction())
         print('Cohen\'s kappa = ', Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
               .aspect_extraction_cohen_kappa())
         print('Krippendorff nominal metric = ', Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
@@ -428,8 +448,6 @@ def main(argv=None):
               .aspect_category_polarity_kappa_cohen_estimation())
         print('Krippendorff nominal metric = ', Evaluate(manual_corpus_gold.corpus, manual_corpus_test.corpus)
               .krippendorff_alpha_aspect_terms_polarity("nominal"))
-
-
 
 
 if __name__ == "__main__": main(sys.argv[1:])
